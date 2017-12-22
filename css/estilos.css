@@ -1,0 +1,205 @@
+body{
+
+
+
+background: url(../imagenes/fondo.jpg) no-repeat center center fixed; 
+
+-webkit-background-size: 100% 100%; /* Safari 3.0 */
+-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+-o-background-size: 100% 100%; /* Opera 9.5 */
+background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+-moz-border-image: url(../imagenes/background2.png) 0; /* Gecko 1.9.1 (Firefox 3.5) */
+/*background: #d2d6de; Esta linea es la imagen de fondo*/
+
+}
+
+
+
+object{
+    width:100%;
+    max-height:100%;
+}
+
+  video, canvas {
+position:fixed;
+margin-left:50%;
+margin-top:50%;
+width:400px;
+height:400px;
+margin-left:100px;
+margin-top:-200px;
+
+  }
+
+
+/*#fondo-header {
+    
+    background: transparent url(../imagenes/mp_header.png) repeat-x;
+    height: 110px;
+    width: 100%;
+    float: left;
+    display: inline;
+}*/
+
+.body-fondo {
+  background: url(../imagenes/logo-fondo.png) no-repeat;
+    height: 200px;
+    width: 100%;
+    float: left;
+    display: inline;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+
+
+.top-buffer { 
+
+	margin-top:405px; 
+	display: block;
+
+}
+
+
+.center-buffer { 
+
+  margin-top:240px; 
+  display: block;
+
+}
+
+
+
+.bot-buffer { 
+
+	margin-top:500px; 
+	display: block;
+
+}
+
+.tabla-buffer { 
+
+  margin-top:50px; 
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+.boton {
+  -moz-box-shadow: 5px 12px 25px -2px #4e4e56;
+  -webkit-box-shadow: 5px 12px 25px -2px #4e4e56;
+  box-shadow: 0px 0px 12px 1px #4e4e56;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #001742), color-stop(1, #2da7cc));
+  background:-moz-linear-gradient(top, #001742 5%, #2da7cc 100%);
+  background:-webkit-linear-gradient(top, #001742 5%, #2da7cc 100%);
+  background:-o-linear-gradient(top, #001742 5%, #2da7cc 100%);
+  background:-ms-linear-gradient(top, #001742 5%, #2da7cc 100%);
+  background:linear-gradient(to bottom, #001742 5%, #2da7cc 100%);
+  background-color:#002570;
+  -moz-border-radius:17px;
+  -webkit-border-radius:17px;
+  border-radius:17px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:28px 35px;
+  text-decoration:none;
+  outline: none;
+}
+.boton:hover {
+
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2da7cc), color-stop(1, #001742));
+  background:-moz-linear-gradient(top, #2da7cc 5%, #001742 100%);
+  background:-webkit-linear-gradient(top, #2da7cc 5%, #001742 100%);
+  background:-o-linear-gradient(top, #2da7cc 5%, #001742 100%);
+  background:-ms-linear-gradient(top, #2da7cc 5%, #001742 100%);
+  background:linear-gradient(to bottom, #2da7cc 5%, #001742 100%);
+  background-color:#2da7cc;
+  outline: none;
+}
+.boton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+.tabla{ 
+
+  margin-top:235px; 
+  display: block;
+
+}
+
+
+.mapa{
+
+  margin-top:50px;
+  display:block;
+
+}
+
+
+.teclado{
+
+  margin-top:20px;
+  display: block;
+
+}
+
+
+
+.foot{
+
+  background: transparent; 
+  color: #2da7cc;
+}
+
+
+
+
+
+th {
+    display: none;
+    border: 1px solid #FFF;
+    background-color: #337ab7;
+    color: #FFF;
+    padding: 1em;
+    text-align: center;
+}
+
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;
+    color: #024457;
+    border-radius: 10px;
+    border: 1px solid #167F92;
+}
+
+tbody{
+    min-height:100px;
+    max-height:400px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+}
+
